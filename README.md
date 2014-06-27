@@ -18,7 +18,7 @@ $ tracker-machine --host=http://localhost:5000
 ## Options
 
 ```
--i, --interval             Post interval (in seconds), defaults is 5 minutes
+-i, --interval             Post interval (in seconds), defaults is 3 minutes
 -hs, --host [host]         Reportr hostname
 -u, --username [username]  Authentication username
 -p, --password [password]  Authentication password

@@ -8,14 +8,14 @@ var Reportr = require('reportr-api');
 
 program
 .version(pkg.version)
-.option('-i, --interval', 'Post interval (in seconds), defaults is 5 minutes', parseInt)
+.option('-i, --interval', 'Post interval (in seconds), defaults is 3 minutes', parseInt)
 .option('-hs, --host [host]', 'Reportr hostname')
 .option('-u, --username [username]', 'Authentication username')
 .option('-p, --password [password]', 'Authentication password')
 .option('-e, --event [event]', 'Event name, default is "machine.state"')
 .parse(process.argv);
 
-program.interval = program.interval || 5*60;
+program.interval = program.interval || 3*60;
 program.event = program.event || "machine.state";
 
 if (!program.host) {
