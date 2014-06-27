@@ -1,0 +1,21 @@
+{
+    "name": "tracker-machine",
+    "description": "Monitor machine state (memory, load average) ",
+    "version": "0.0.0",
+    "author": "samypesse@gmail.com",
+    "homepage": "https://github.com/Reportr/tracker-machine",
+    "bugs": "https://github.com/Reportr/tracker-machine/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Reportr/tracker-machine.git"
+    },
+    "dependencies": {
+        "q": "1.0.1",
+        "lodash": "2.4.1",
+        "reportr-api": "1.0.2",
+        "commander": "2.2.0"
+    },
+    "bin": {
+        "tracker-machine": "./bin/tracker.js"
+    }
+}
